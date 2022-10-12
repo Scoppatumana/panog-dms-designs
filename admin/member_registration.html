@@ -1,0 +1,313 @@
+
+<html>
+    <head>
+    <title>Administrative Portal | PANOG-DMS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="ROBOTS" content="ALL"/>
+        <meta name="Engine" content="all"/>
+        <meta name="distribution" content="global"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-------------------------------------------------------------->
+        <link rel="shortcut icon" type="image-png" href="images/icon.png"/>
+        <link href="css/animate.css" type="text/css" rel="stylesheet"/>
+        <link href="css/aos.css" type="text/css" rel="stylesheet"/>
+        <link href="awesome-font/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+        <script src="javascript/jquery-library.js"></script>
+
+
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <script src="javascript/script.js"></script>
+        <!--------------------------------for slide------------------------------>
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    </head>
+    <body>
+              <!-- start of header -->
+            
+              <header class="animated animated fadeInDown animated">
+                <div class="header-div-inner">
+                    <div class="logo-div">
+                    <img src="images/logo.png" alt="OOU IMAGE" />
+                    </div>
+
+                    
+
+
+
+                    <ul class="nav-bar">
+                    <a href="view-members.html"> <li> <i class="fa fa-user-circle"></i> My Profile</li></a>
+                    <li class="menu-bar" onClick="_open_menu();"> <i class="fa fa-bars fa-lg"></i></li>
+                    </ul>
+                    <a href="notification.html"> <span class="notification"> <i class="fa fa-bell"></i></a>
+                    
+                    <div class="numbers">
+                        12
+                    </div>
+
+                            
+                    </span>
+                    
+                    <h1><span id="words">Ounje'l'Eyin </span></h1>
+                </div>
+
+                    
+                </header>
+
+                <div class="menu-bar-overall-div" onClick="_close_menu();">
+                    <div class="side-menu-bar">
+                        <ul class="side-bar-ul">
+                         <a href="index.html"><li class="side-bar-li">Dashboard</li></a>
+                         <a href="registration-form.html"><li class="side-bar-li">Members</li></a>
+                         <a href="annualdues.html"><li class="side-bar-li">Annual Due</li></a>
+                         <a href="ounjeleyin.htl"><li class="side-bar-li">Ounje'l'eyin Due</li></a>
+                         <a href="feed-subscription.html"><li class="side-bar-li">Feed Sub Dues</li></a>
+                         <a href=""><li class="side-bar-li">Ceremonial Dues</li></a>
+                         <a href="newyearparty.html"><li class="side-bar-li">New Year Party</li></a>
+                         <a href="../index.html"><li class="side-bar-li">Sign-out</li></a>
+                        </ul>
+                    </div>
+            </div>
+
+                <!-- End of header -->
+    <div class="dashboard-main-div">
+            <!-- Start of Admin Reference -->
+            <div class="left-sided-div animated animated fadeInLeft animated">
+
+                <!-- PROFILE INDEX -->
+                <div class="profile-div">
+                    
+
+
+                    <div class="picture-div">
+                        <img src="images/863.jpg" alt = "Passport">
+                    </div>
+                
+                        
+
+                    <h6>
+                    Omisanya Sodiq Boluwaduro
+                    </h6>
+                    <p> <i>Member ID</i><span>: Member-002 </span></p>
+                    <input class="hiddeninput"  type="file" style="display:none;" >
+
+                    <input type="hidden" name="del_passport" value=""/>
+                    
+                    <button name="submitpassport" type="submit"> Upload Image</button>
+
+                
+                    </div>
+                    
+
+
+
+                <!-- DASHBOARD INDEX -->
+                <div class="dashboard-list">
+                    <ul>
+                        <a href="index.html"><li class="active"><i class="fa fa-dashboard"></i> Dashboard</li></a>
+                        <a href="members_list.html"><li><i class="fa fa-users"></i> Members</li></a>
+                        <li class="annual-dues"><i class="fa fa-credit-card"></i> Yearly Dues
+                    
+                    
+                        <div class="side-menu-1">
+
+                            <ul>
+                                <a href="annualdues.html"><li>Annual Due</li> </a>
+                                <a href="ounjeleyin.html"><li> Ounje'l'eyin Due</li> </a>
+
+                            </ul>
+
+                        </div>
+
+                    
+                    
+                    
+                        </li>
+
+                            
+
+
+
+                        <a href="feed-subscription.html"><li><i class="fa fa-building"></i> Feed Sub Dues</li></a>
+                        <li><i class="fa fa-book"></i> Ceremonial Dues
+                            <div class="side-menu-1">
+
+                                <ul>
+                                    <a href="worldeggday.html"><li><i class="fa fa-sign-out"></i> World Egg Day</li> </a>
+                                    <a href="newyearparty.html"><li><i class="fa fa-sign-out"></i> New Year Party</li> </a>
+
+                                </ul>
+
+                            </div>
+                    
+                    </li>
+                    <a href="../index.html"> <li><i class="fa fa-sign-out"></i> Sign-out</li> </a>
+                    </ul>
+                </div>
+
+                </div>
+            <!-- End of admin reference -->
+            <div class="right-sided-div">
+                <div class="bg-image-div staff-list-bg">
+                    <div class="bg-cover">
+                        <div class="dashboard-overall">
+
+                            <div class="dashboard-admin-text staff-dashboard">
+                                <span class="dashboard">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    Member Registration
+                                </span>
+                                    <br/>
+                                <span class="admin-portal">
+                                    Administrative Portal 
+                                </span>
+                            </div>
+
+                            <div class="current-time button-div">
+                              
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+            <div class="student-reg-overall-div">
+
+
+            <div class="passport-main-div animated zoomIn animated animated">
+                        <div class="passport-inner-div" onclick="triggerClick()">
+                            <img id="ImageDisplay" src="images/yooga-image-profile-pics.png" name="ImageDisplay" alt="Passport">
+                            <input class="hiddeninput" onchange="displayImage(this)" type="file" id="ImageSelector" name="ImageSelector" style="display:none;" >
+                        </div>
+                        <button type="submit" class="upload-pic-btn"><i class="fa fa-upload"></i>  UPLOAD PICTURE</button>  <i></i>
+            </div>
+                    <fieldset class="animated slideInRight animated animated">
+                        <legend>Owner's Information</legend>
+
+                        <div class="individual-input">
+                            <label for="">Title:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <select name="title" id="title" required>
+                                <option value="">Select Title</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                            </select>
+                        </div>
+
+                        <div class="individual-input">
+                            <label for="">First Name :<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup></label><br/>
+                            <input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+                        </div>
+                        <div class="individual-input">
+                            <label for="">Middle Name:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="Middle Name" name="middlename" id="middlename" required>
+                        </div>
+                        <div class="individual-input">
+                            <label for="">Last Name:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+                        </div>
+                        <div class="individual-input">
+                            <label for="">L.G.A:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="LGA" name="owners_lga" id="owners_lga" required>
+                        </div>
+                        <div class="individual-input">
+                            <label for="">Gender:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <select name="gender" id="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+
+                        <div class="individual-input">
+                            <label for="">Email Address:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="email" placeholder="Email Address" name="email_address" id="email_address" required>
+                        </div>
+
+                        <div class="individual-input">
+                            <label for="">Home Address:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="Home Address" name="home_address" id="home_address" required>
+                        </div>
+
+                        <div class="individual-input">
+                            <label for="">Role:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <select name="role" id="role" required>
+                                <option value="">Select Role</option>
+                                <option value="Member">Member</option>
+                                <option value="Administrator">Administrator</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="animated slideInRight animated animated">
+                        <legend>Farm Information</legend>
+                        <div class="individual-input">
+                            <label for="">Farm Name:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="Farm Name" name="farm_name" id="farm_name" required>
+                        </div>
+                        <div class="individual-input">
+                            <label for="">Farm Address:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="Farm Address" name="farm_address" id="farm_address" required>
+                        </div>
+                        <div class="individual-input">
+                            <label for="">LGA:<sup style="color: red; font-size: 18px; font-weight: bold; ">*</sup> </label><br/>
+                            <input type="text" placeholder="LGA" name="farm_lga" id="farm_lga" required>
+                        </div>
+                        
+                       
+                       
+                    </fieldset>
+
+
+                    <fieldset class="animated slideInRight animated animated">
+                        <legend>Birds Information</legend>
+
+
+                       
+                        <div class="Checkbox-div" style="min-width: 200px; text-align: left; margin-top: 10px; margin-left: 30px;">
+
+                                <label for="" style= "margin-left: -5px;">Choose the types of birds on your farm </label><br/>
+                                <input type="radio" id="layers" name="types_of_birds" value="Layers" id="types_of_birds" required>
+                                <label for="layers"> Layers</label><br/>
+
+                                <input type="radio" id="broilers" name="types_of_birds" value="Broiler" id="types_of_birds" required>
+                                <label for="broilers"> Broilers</label><br/>
+
+                                <input type="radio" id="cockerel" name="types_of_birds" value="Cockerel" id="types_of_birds" required>
+                                <label for="cockerel"> Cockerel</label><br/>
+
+                                <input type="radio" id="all of the above" name="types_of_birds" value="All of the above" id="types_of_birds" required>
+                                <label for="all of the above"> All of the above</label><br/>
+
+                        </div>
+
+                        <div class="Checkbox-div" style="min-width: 200px; text-align: left; margin-top: 10px; margin-left: 30px;">
+
+                                <label for="" style= "margin-left: -5px;">Choose your farms capacity </label><br/>
+                                <input type="radio" id="0-1000" name="farm_capacity" value="0 - 1000 birds" id="farm_capacity" required>
+                                <label for="0-1000"> 0 - 1000 birds</label><br/>
+
+                                <input type="radio" id="1000-5000" name="farm_capacity" value="1000 - 5000 birds" id="farm_capacity" required>
+                                <label for="1000-5000"> 1000 - 5000 birds</label><br/>
+
+                                <input type="radio" id="5000-10000" name="farm_capacity" value="5000 - 10000 birds" id="farm_capacity" required>
+                                <label for="5000-10000"> 5000 - 10000 birds</label><br/>
+
+                                <input type="radio" id="Above 50,000" name="farm_capacity" value="Above 10,000 birds" id="farm_capacity" required>
+                                <label for="Above 10,000"> Above 10,000 birds</label><br/>
+
+                        </div>
+             
+                       
+
+
+                      
+                    </fieldset>
+                        
+                        <a href="registration-successful.html"><button class="submit-btn"><i class="fa fa-check"></i> SUBMIT</button></a>     
+            </div>   
+
+                   
+               
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,267 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="ROBOTS" content="ALL"/>
+    <meta name="Engine" content="all"/>
+    <meta name="distribution" content="global"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-------------------------------------------------------------->
+    <link rel="shortcut icon" type="image-png" href="images/icon.png"/>
+    <link href="css/animate.css" type="text/css" rel="stylesheet"/>
+    <link href="css/aos.css" type="text/css" rel="stylesheet"/>
+    <link href="awesome-font/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <script src="javascript/jquery-library.js"></script>
+
+
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="javascript/script.js"></script>
+    <!--------------------------------for slide------------------------------>
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+
+  
+    <title>Administrative Portal | Panog-Remo DMS</title>
+  </head>
+  <body>
+        <!-- start of header -->
+            
+        <header class="animated animated fadeInDown animated">
+                <div class="header-div-inner">
+                    <div class="logo-div">
+                    <img src="images/logo.png" alt="OOU IMAGE" />
+                    </div>
+
+                    
+
+
+
+                    <ul class="nav-bar">
+                    <a href="view-members.html"> <li> <i class="fa fa-user-circle"></i> My Profile</li></a>
+                    <li class="menu-bar" onClick="_open_menu();"> <i class="fa fa-bars fa-lg"></i></li>
+                    </ul>
+                    <a href="notification.html"> <span class="notification"> <i class="fa fa-bell"></i></a>
+                    
+                    <div class="numbers">
+                        12
+                    </div>
+
+                            
+                    </span>
+                    
+                    <h1><span id="words">Ounje'l'Eyin </span></h1>
+                </div>
+
+                    
+                </header>
+
+                <div class="menu-bar-overall-div" onClick="_close_menu();">
+                  <div class="side-menu-bar">
+                      <ul class="side-bar-ul">
+                       <a href="index.html"><li class="side-bar-li">Dashboard</li></a>
+                       <a href="registration-form.html"><li class="side-bar-li">Members</li></a>
+                       <a href="annualdues.html"><li class="side-bar-li">Annual Due</li></a>
+                       <a href="ounjeleyin.htl"><li class="side-bar-li">Ounje'l'eyin Due</li></a>
+                       <a href="feed-subscription.html"><li class="side-bar-li">Feed Sub Dues</li></a>
+                       <a href=""><li class="side-bar-li">Ceremonial Dues</li></a>
+                       <a href="newyearparty.html"><li class="side-bar-li">New Year Party</li></a>
+                       <a href="../index.html"><li class="side-bar-li">Sign-out</li></a>
+                      </ul>
+                  </div>
+          </div>
+
+                <!-- End of header -->
+    <div class="dashboard-main-div">
+          <!-- Start of Admin Reference -->
+          <div class="left-sided-div animated animated fadeInLeft animated">
+
+<!-- PROFILE INDEX -->
+<div class="profile-div">
+    
+
+
+    <div class="picture-div">
+      <img src="images/863.jpg" alt = "Passport">
+    </div>
+
+        
+
+    <h6>
+    Omisanya Sodiq Boluwaduro
+    </h6>
+    <p> <i>Member ID</i><span>: Member-002 </span></p>
+    <input class="hiddeninput"  type="file" style="display:none;" >
+
+    <input type="hidden" name="del_passport" value=""/>
+    
+    <button name="submitpassport" type="submit"> Upload Image</button>
+
+
+    </div>
+    
+
+
+
+<!-- DASHBOARD INDEX -->
+<div class="dashboard-list">
+    <ul>
+        <a href="index.html"><li class="active"><i class="fa fa-dashboard"></i> Dashboard</li></a>
+        <a href="members_list.html"><li><i class="fa fa-users"></i> Members</li></a>
+        <li class="annual-dues"><i class="fa fa-credit-card"></i> Yearly Dues
+    
+    
+        <div class="side-menu-1">
+
+            <ul>
+                <a href="annualdues.html"><li>Annual Due</li> </a>
+                <a href="ounjeleyin.html"><li> Ounje'l'eyin Due</li> </a>
+
+            </ul>
+
+        </div>
+
+    
+    
+    
+        </li>
+
+            
+
+
+
+        <a href="feed-subscription.html"><li><i class="fa fa-building"></i> Feed Sub Dues</li></a>
+        <li><i class="fa fa-book"></i> Ceremonial Dues
+            <div class="side-menu-1">
+
+                <ul>
+                    <a href="worldeggday.html"><li><i class="fa fa-sign-out"></i> World Egg Day</li> </a>
+                    <a href="newyearparty.html"><li><i class="fa fa-sign-out"></i> New Year Party</li> </a>
+
+                </ul>
+
+            </div>
+    
+    </li>
+    <a href="../index.html"> <li><i class="fa fa-sign-out"></i> Sign-out</li> </a>
+    </ul>
+</div>
+
+</div>
+<!-- End of admin reference -->
+      
+
+      <div class="right-sided-div">
+        <div class="bg-image-div">
+          <div class="bg-cover">
+            <div class="dashboard-overall">
+              <div class="dashboard-admin-text">
+                <span class="dashboard">
+                  <i class="fa fa-dashboard"></i>
+                  Dashboard
+                </span>
+                <br />
+                <span class="admin-portal"> Administrative Portal </span>
+              </div>
+
+              <div class="current-time">
+                <span class="text"> Current Time </span><br />
+                <span class="time" id="clock">   </span><br />
+                <span class="text" id="date" > </span>
+
+              
+              </div>
+
+              <div class="user-details">
+                <div class="picture-div">
+                  <img
+                  src="images/863.jpg"
+                    alt="Passport"
+                  />
+                </div>
+                <div class="welcome-text">
+                  Welcome Back!
+                  <h1>
+                  Mr. Omisanya Sodiq Boluwaduro
+                  </h1>
+                  <span class="login-date"
+                    ><i class="fa fa-clock"></i>
+                    Last Login Date
+                    <span> | </span>
+                    2021-11-04 18:52:11
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="main-displayed-div">
+          <a href=""
+            ><div class="main-div-proper staffs">
+              <div class="inner-div">
+                <i class="fa fa-user"></i>
+                <span class="counter" data-target="5000"> 0 </span><br />
+                Members  
+              </div>
+            </div></a
+          >
+          <a href=""><div class="main-div-proper students">
+            <div class="inner-div">
+              <i class="fa fa-users"></i>
+              <span class="counter" data-target="5000"> 0 </span><br />
+              Members
+            </div>
+          </div></a>
+          <a href=""
+            ><div class="main-div-proper faculties">
+              <div class="inner-div">
+                <i class="fa fa-building"></i>
+                <span class="counter" data-target="5000"> 0 </span><br />
+                Dues
+              </div>
+            </div></a
+          >
+          <a href=""
+            ><div class="main-div-proper faculties">
+              <div class="inner-div">
+                <i class="fa fa-building"></i>
+                <span class="counter" data-target="5000"> 0 </span><br />
+                Dues
+              </div>
+            </div></a
+          >
+
+
+
+        
+            
+        </div>
+        <div class="bookings-overall animated animated fadeInUp animated">
+          <div class="bookings">
+            <div class="booking-inner">
+              <span class="booking-span">
+                <i class="fa fa-calendar-check-o"></i>
+                Announcement
+              </span>
+              <button>0</button>
+            </div>
+          </div>
+
+          <div class="bookings">
+            <div class="booking-inner">
+              <span class="booking-span">
+                <i class="fa fa-calendar-check-o"></i>
+                Upcoming Events
+              </span>
+              <button>0</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

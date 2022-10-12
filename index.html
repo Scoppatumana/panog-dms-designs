@@ -1,0 +1,114 @@
+
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="ROBOTS" content="ALL"/>
+  <meta name="Engine" content="all"/>
+  <meta name="distribution" content="global"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-------------------------------------------------------------->
+  <link rel="shortcut icon" type="image-png" href="images/icon.png"/>
+  <link href="css/animate.css" type="text/css" rel="stylesheet"/>
+  <link href="awesome-font/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+  <script src="Javascript/jquery-library.js"></script>
+
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <script src="Javascript/script.js"></script>
+  <!--------------------------------for slide------------------------------>
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+
+    <title></title>
+  </head>
+
+  <body>
+    
+    
+
+    <header class="animated animated fadeInDown animated">
+      <div class="header-div-inner">
+        <a href="index.html"><div class="logo-div">
+          <img src="images/logo.png" alt="OOU IMAGE" />
+        </div></a>
+
+        <h1><span id="words">Ounje'l'Eyin </span></h1>
+      </div>
+    </header>
+
+    <div class="body-main-div">
+      <div class="background-image">
+        <div class="background-cover">
+          <div class="login-overall-div">
+                
+
+
+            <div class="next-div" id="next_1">    
+              <div class="login-main-div animated animated fadeInLeft animated">
+                <div class="header-login">
+                  <p><i class="fa fa-unlock"></i> Log-in to eDMS</p>
+                </div>
+
+                <input type="email" placeholder="E-mail Address" name="loginemail" id="loginemail" required />
+                <input type="password" placeholder="Password" name="loginpassword" id="loginpassword" required />
+
+                <a href="admin/index.html"><button><i class="fa fa-sign-in"></i> Log-in</button></a>
+                <br />
+
+                <span> forgot password?  <span class="reset" onClick="_next_page('next_2');">Reset here</span> </span>
+              </div>
+            </div>  
+ 
+
+
+            <div class="next-div" id="next_2">    
+              <div class="login-main-div animated animated fadeInLeft animated">
+                <div class="header-login">
+                  <p><i class="fa fa-tool"></i> Reset Your Password</p>
+                </div>
+
+                <input type="email" placeholder="E-mail Address" name="email_address" id="email_address" required />
+                <div class="information-div">
+                  <h6> An OTP Would be sent to your email</h6>
+                </div>
+
+                <button onClick="_next_page('next_1');" type="submit" class="prevpro"><i class="fa fa-arrow-left"></i> Previous</button>
+                <button type="submit" class="prevpro"><i class="fa fa-arrow-right"></i> Proceed</button>
+                <br />
+
+              
+              </div>
+            </div> 
+
+          </div>
+                
+          <div class="welcome-text">
+            <span class="welcome" id="text"> </span> <br />
+            <span class="edms" id="eDMS">eDMS</span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p><i class="fa fa-copyright"></i>CopyRight: All Rights Reserved</p>
+        <p class="date">
+          <span>Date:</span> Friday, 04 March 2021
+          <span>Time:</span> 07:46<sup>PM</sup><br/>
+        </p>
+      </div>
+    </div>
+
+    <script  type="text/javascript">
+      var i=0,text;
+      text = "PANOG REMO Welcomes you to "
+
+      function typing(){
+        if(i<text.length){
+          document.getElementById("text").innerHTML += text.charAt(i);
+          i++
+          setTimeout(typing,50);
+        }
+      }
+      typing();
+    </script>
+   
+  </body>
+</html>

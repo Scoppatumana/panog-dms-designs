@@ -1,0 +1,211 @@
+
+<html>
+    <head>
+        <title>Administrative Portal | PANOG-DMS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="ROBOTS" content="ALL"/>
+        <meta name="Engine" content="all"/>
+        <meta name="distribution" content="global"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-------------------------------------------------------------->
+        <link rel="shortcut icon" type="image-png" href="images/icon.png"/>
+        <link href="css/animate.css" type="text/css" rel="stylesheet"/>
+        <link href="css/aos.css" type="text/css" rel="stylesheet"/>
+        <link href="awesome-font/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+        <script src="javascript/jquery-library.js"></script>
+
+
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <script src="javascript/script.js"></script>
+        <!--------------------------------for slide------------------------------>
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    </head>
+    <body>
+                    <!-- start of header -->
+            
+                <header class="animated animated fadeInDown animated">
+                <div class="header-div-inner">
+                    <div class="logo-div">
+                    <img src="images/logo.png" alt="OOU IMAGE" />
+                    </div>
+
+                    
+
+
+
+                    <ul class="nav-bar">
+                    <a href="view-members.html"> <li> <i class="fa fa-user-circle"></i> My Profile</li></a>
+                    <li class="menu-bar" onClick="_open_menu();"> <i class="fa fa-bars fa-lg"></i></li>
+                    </ul>
+                    <a href="notification.html"> <span class="notification"> <i class="fa fa-bell"></i></a>
+                    
+                    <div class="numbers">
+                        12
+                    </div>
+
+                            
+                    </span>
+                    
+                    <h1><span id="words">Ounje'l'Eyin </span></h1>
+                </div>
+
+                    
+                </header>
+
+
+                <div class="menu-bar-overall-div" onClick="_close_menu();">
+                    <div class="side-menu-bar">
+                        <ul class="side-bar-ul">
+                         <a href="index.html"><li class="side-bar-li">Dashboard</li></a>
+                         <a href="registration-form.html"><li class="side-bar-li">Members</li></a>
+                         <a href="annualdues.html"><li class="side-bar-li">Annual Due</li></a>
+                         <a href="ounjeleyin.htl"><li class="side-bar-li">Ounje'l'eyin Due</li></a>
+                         <a href="feed-subscription.html"><li class="side-bar-li">Feed Sub Dues</li></a>
+                         <a href=""><li class="side-bar-li">Ceremonial Dues</li></a>
+                         <a href="newyearparty.html"><li class="side-bar-li">New Year Party</li></a>
+                         <a href="../index.html"><li class="side-bar-li">Sign-out</li></a>
+                        </ul>
+                    </div>
+            </div>
+
+                <!-- End of header -->
+        <div class="dashboard-main-div">
+                <!-- Start of Admin Reference -->
+            <div class="left-sided-div animated animated fadeInLeft animated">
+
+<!-- PROFILE INDEX -->
+<div class="profile-div">
+    
+
+
+    <div class="picture-div">
+        <img src="images/863.jpg" alt = "Passport">
+    </div>
+
+        
+
+    <h6>
+    Omisanya Sodiq Boluwaduro
+    </h6>
+    <p> <i>Member ID</i><span>: Member-002 </span></p>
+    <input class="hiddeninput"  type="file" style="display:none;" >
+
+    <input type="hidden" name="del_passport" value=""/>
+    
+    <button name="submitpassport" type="submit"> Upload Image</button>
+
+
+    </div>
+    
+
+
+
+<!-- DASHBOARD INDEX -->
+<div class="dashboard-list">
+    <ul>
+        <a href="index.html"><li class="active"><i class="fa fa-dashboard"></i> Dashboard</li></a>
+        <a href="members_list.html"><li><i class="fa fa-users"></i> Members</li></a>
+        <li class="annual-dues"><i class="fa fa-credit-card"></i> Yearly Dues
+    
+    
+        <div class="side-menu-1">
+
+            <ul>
+                <a href="annualdues.html"><li>Annual Due</li> </a>
+                <a href="ounjeleyin.html"><li> Ounje'l'eyin Due</li> </a>
+
+            </ul>
+
+        </div>
+
+    
+    
+    
+        </li>
+
+            
+
+
+
+        <a href="feed-subscription.html"><li><i class="fa fa-building"></i> Feed Sub Dues</li></a>
+        <li><i class="fa fa-book"></i> Ceremonial Dues
+            <div class="side-menu-1">
+
+                <ul>
+                    <a href="worldeggday.html"><li><i class="fa fa-sign-out"></i> World Egg Day</li> </a>
+                    <a href="newyearparty.html"><li><i class="fa fa-sign-out"></i> New Year Party</li> </a>
+
+                </ul>
+
+            </div>
+    
+    </li>
+    <a href="../index.html"> <li><i class="fa fa-sign-out"></i> Sign-out</li> </a>
+    </ul>
+</div>
+
+</div>
+<!-- End of admin reference -->
+
+            <div class="right-sided-div">
+                <div class="bg-image-div staff-list-bg">
+                    <div class="bg-cover">
+                        <div class="dashboard-overall">
+
+                            <div class="dashboard-admin-text staff-dashboard">
+                                <span class="dashboard">
+                                    <i class="fa fa-money"></i>
+                                    Annual Due
+                                </span>
+                                    <br/>
+                                <span class="admin-portal">
+                                    Administrative Portal 
+                                </span>
+                            </div>
+
+                            <div class="current-time button-div">
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                       
+<div class="annual-dues-main-div paymentform-main animated animated zoomIn animated">
+  
+  <div class="form-group">
+      <label for="">Due Type</label><br>
+      <input type="text" name="duetype" id="duetype" placeholder="Email-Address" value="" required readonly/>
+    </div>
+    <div class="form-group">
+      <label for="">E-mail</label><br>
+      <input type="email" name="email" id="email-address" placeholder="Email-Address" value="" required />
+    </div>
+    <div class="form-group">
+
+    <label for="">Amount</label><br>
+      <input type="number" id="amount" name="amount"  placeholder="Amount" value="" required readonly/>
+    </div>
+    <div class="form-group">
+
+      <label for="">First Name</label><br>
+      <input type="text" id="first-name" placeholder="First Name" value="" />
+    </div>
+    <div class="form-group">
+      
+    <label for="">Last Name</label><br>
+      <input type="text" id="last-name" placeholder="Last Name" value="" />
+    </div>
+    <div class="form-submit">
+      
+      <button type="submit" name="pay"> PAY </button>
+    </div>
+
+       
+</div>
+
+
+</body>
+</html>
